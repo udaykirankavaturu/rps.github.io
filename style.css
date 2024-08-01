@@ -1,0 +1,96 @@
+/* COMMON STYLES */
+html {
+    font-family: "Bubblegum Sans", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: indianred;
+
+    /* background-image: url('./assets/images/background.jpg');
+    background-size: auto;
+    background-position: center; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    justify-content: center;
+    width: 80%;
+    margin: 0;
+    background-color: white;
+    border-radius: 8px;
+    border: 1px solid #858C94;
+}
+
+
+/* HEADER SECTION */
+.header-section h1 {
+    color: indianred;
+    font-size: xx-large;
+}
+
+/* GAME SECTION */
+.game-section p {
+    color: indianred;
+    font-size: x-large;
+    text-align: center;
+}
+
+.game-section .game-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.game-section button {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: indianred;
+    border: none;
+    padding: 0;
+}
+
+.game-section button img {
+    width: 80px;
+    height: 80px;
+}
+
+.game-section button:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transform: translateY(-4px);
+}
+
+/* RESULT SECTION */
+.result-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.result-section .result-labels {
+    width: 100%;
+    margin-left: 825px;
+}
+
+.result-section p {
+    font-size: x-large;
+    color: indianred;
+}
+
+.result-section p span {
+    color: darkblue;
+}

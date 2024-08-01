@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors!</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <!-- HEADER SECTION -->
+        <section class="header-section">
+            <h1>Let's play - Rock, Paper, Scissors!</h1>
+        </section>
+
+        <!-- GAME SECTION -->
+        <section class="game-section">
+            <p>Please make your move</p>
+            <div class="game-buttons">
+                <button><img src="assets/images/rock.png" alt="rock icon" id="rock"></button>
+                <button><img src="assets/images/paper.png" alt="paper icon" id="paper"></button>
+                <button><img src="assets/images/scissors.png" alt="scissors icon" id="scissors"></button>
+            </div>
+        </section>
+
+        <!-- RESULT SECTION -->
+        <section class="result-section">
+            <div class="result-labels">
+                <p>Your move: <span id="your-move"></span></p>
+                <p>Computer move: <span id="computer-move"></span></p>
+                <p>Result: <span id="result"></span></p>
+            </div>
+        </section>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
