@@ -34,19 +34,19 @@ function getResult(playerMove, computerMove) {
         if (computerMove === 'paper') {
             return "Computer won! Try again.";
         } else {
-            return "You won! Congratulations! one more round?";
+            return "You won! Congratulations!";
         }
     } else if (playerMove === 'paper') {
         if (computerMove === 'scissors') {
             return "Computer won! Try again.";
         } else {
-            return "You won! Congratulations! one more round?";
+            return "You won! Congratulations!";
         }
     } else if (playerMove === 'scissors') {
         if (computerMove === 'rock') {
             return "Computer won! Try again.";
         } else {
-            return "You won! Congratulations! one more round?";
+            return "You won! Congratulations!";
         }
     }
 }
