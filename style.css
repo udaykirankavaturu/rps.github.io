@@ -82,8 +82,7 @@ body {
 }
 
 .result-section .result-labels {
-    width: 100%;
-    margin-left: 825px;
+    width: 30%;
 }
 
 .result-section p {
